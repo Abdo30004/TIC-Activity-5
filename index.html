@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<title>Activité 5</title>
+	<style>
+		.top-left {
+			position: absolute;
+			top: 9px;
+			left:15px;
+		  }
+		  .bottom-right {
+			position: absolute;
+			bottom: 1px;
+			right:15px;
+		  }
+		body {
+			margin-top: 150px;
+			background-image: url('background.jpg');
+			
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			color: #ffffff;
+			line-height: 1.5;
+			
+		}
+		.container {
+			margin: 0 auto;
+			max-width: 800px;
+			padding: 50px;
+			background:transparent;
+			width: 1000px;
+			
+			box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+		}
+		.box {
+			padding: 20px;
+			margin-bottom: 30px;
+			background:transparent;
+			box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+			border-radius: 5px;
+			
+		}
+		.box2 {
+			padding: 20px;
+			margin-bottom: 30px;
+			background:transparent;
+			box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+			border-radius: 5px;
+			
+
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 36px;
+			margin-bottom: 20px;
+			font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif	}
+
+		ul {
+			font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;	
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			font-size: 16.2px;
+			margin-bottom: 50px;
+		}
+
+		li {
+			padding: 10px 0;
+			border-bottom: 1px solid #f1f1f1;
+		}
+
+		p {
+			font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;	
+
+            font-size: 16px;
+			margin-bottom: 30px;
+		}
+		h2{
+			font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;	
+		}
+	
+
+
+
+		.collapsible {
+  background-color: transparent;
+  color: rgb(249, 249, 249);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #050f1b;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #081c34;
+}
+
+
+	</style>
+</head>
+<body>
+
+	<div class="top-left"><font size='10'>TIC</font></div>
+	<div class="bottom-right"><font size='10'>TIC</font></div>
+
+
+	<div class="container">
+		<div class="box">
+			<h1>Liste des ètudiants :</h1>                           
+			<ul>	
+				<li> <b> <span style="color: rgb(0, 217, 255);">MATRICULE: </span> </b>222231640615  <span style="color: rgb(0, 217, 255);">NOM: </span> </b> MAHI <b> <span style="color: rgb(0, 217, 255);">PRENOM: </span> </b> Mohamed Samy <b> <span style="color: rgb(0, 217, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARTIE: </span> </b> 01</li>	
+				<li> <b> <span style="color: rgb(0, 217, 255);">MATRICULE: </span> </b>222231485201  <span style="color: rgb(0, 217, 255);">NOM: </span> </b> YAHIAOUI <b> <span style="color: rgb(0, 217, 255);">PRENOM: </span> </b> Abderrahmane <b> <span style="color: rgb(0, 217, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARTIE: </span> </b> 01</li>	
+				<li> <b> <span style="color: rgb(0, 217, 255);">MATRICULE: </span> </b>212231546003  <span style="color: rgb(0, 217, 255);">NOM: </span> </b> ELKACIMI Elhassani <b> <span style="color: rgb(0, 217, 255);">PRENOM: </span> </b> Mohamed Rafik <b> <span style="color: rgb(0, 217, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARTIE: </span> </b> 02</li>	
+				<li> <b> <span style="color: rgb(0, 217, 255);">MATRICULE: </span> </b>222231480910  <span style="color: rgb(0, 217, 255);">NOM: </span> </b> CHETTOUF <b> <span style="color: rgb(0, 217, 255);">PRENOM: </span> </b> Islem <b> <span style="color: rgb(0, 217, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARTIE: </span> </b> 02</li>	
+				<li> <b> <span style="color: rgb(0, 217, 255);">MATRICULE: </span> </b>222231516714  <span style="color: rgb(0, 217, 255);">NOM: </span> </b> BOULOUFA <b> <span style="color: rgb(0, 217, 255);">PRENOM: </span> </b> Tarek <b> <span style="color: rgb(0, 217, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARTIE: </span> </b> 03</li>	
+				<li> <b> <span style="color: rgb(0, 217, 255);">MATRICULE: </span> </b>222231402319  <span style="color: rgb(0, 217, 255);">NOM: </span> </b> ABDERRAHIM <b> <span style="color: rgb(0, 217, 255);">PRENOM: </span> </b> Sidali <b> <span style="color: rgb(0, 217, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARTIE: </span> </b> 03</li>
+				<li> <b> <span style="color: rgb(0, 217, 255);">MATRICULE: </span> </b>222231520204  <span style="color: rgb(0, 217, 255);">NOM: </span> </b> BOUAMAMA <b> <span style="color: rgb(0, 217, 255);">PRENOM: </span> </b> Hassene <b> <span style="color: rgb(0, 217, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARTIE: </span> </b> 04</li>	
+				<li> <b> <span style="color: rgb(0, 217, 255);">MATRICULE: </span> </b>222231609610  <span style="color: rgb(0, 217, 255);">NOM: </span> </b> MERNACHE <b> <span style="color: rgb(0, 217, 255);">PRENOM: </span> </b> Mohamed Amine <b > <span style="color: rgb(0, 217, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARTIE: </span> </b> 04</li>	
+				<li> <b> <span style="color: rgb(0, 217, 255);">MATRICULE: </span> </b>222231640608  <span style="color: rgb(0, 217, 255);">NOM: </span> </b> GACEM <b> <span style="color: rgb(0, 217, 255);">PRENOM: </span> </b> Abdenour <b> <span style="color: rgb(0, 217, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARTIE: </span></b> 05</li>	
+				<li> <b> <span style="color: rgb(0, 217, 255);">MATRICULE: </span> </b>222231658510  <span style="color: rgb(0, 217, 255);">NOM: </span> </b> DALIL <b> <span style="color: rgb(0, 217, 255);">PRENOM: </span> </b> Faycal <b><span style="color: rgb(0, 217, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARTIE: </span> </b> 05</li>	
+			</ul>
+		</div>
+
+
+		
+		<div class="box2">
+			<button type="button" class="collapsible">Chapitre 1 :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Introduction</b> </button>
+			<div class="content">
+  			<p>
+				<ol>
+				  <li><b><u>   Les techniques de l'information et de la communication(TIC):  </u></b> <br>
+				  
+				Les TICs regroupent l'ensemble des outils (matériels et logiciels) qui permettent
+				aux utilisateurs de :
+				<ul type='circle'>
+				<li> Communiquer et Transmettre
+				<li>Accéder aux sources d’informations 
+				<li> Stocker 
+				<li> Manipuler
+				<li> Produire 
+				</ul>
+				
+				<hr width="1000" >
+				
+				
+				  <li><b><u>  Catégories et objectifs:    </u></b> <br>
+				
+				 <ul type='disc'>
+				<li>Les TIC ont 3 catégories :
+				 <ol>
+				<li><u>La téléinformatique</u>: est la science des techniques 
+				permettant l’échange d’informations numériques entre plusieurs systèmes 
+				informatiques
+				<li><u>Télécommunication</u>: domaine où les systèmes communicants ne sont pas 
+				nécessairement informatiques : traitement du signal, transmission analogique, les centres d'appels, le système GPS... 
+				<li><u>L’électronique</u>:les composants,l'équipement grand public tels que les télévisions, lecteurs...etc 
+				dvd etc....
+				</ol>
+				<li>Objectifs recherchés:
+				<ol>
+				<li><u> La connectivité</u>: permettre la communication entre plusieurs ordinateurs  
+				<li> <u>La modularité</u>:utiliser un ensemble restreint d’appareils généraux
+				<li><u>Une implantation simple</u>: solution générale qui peut être installée facilement selon 
+				différentes configurations 
+				<li><u> Une utilisation facile</u>: disponibilité d’outils de communication libérant les 
+				utilisateurs de la connaissance de la structure du réseau 
+				<li><u> La fiabilité</u>: détection et correction des erreurs
+				</ol>
+				</ul>
+			
+				
+				<hr width="1000" >
+				  <li><b><u>   Composants de TIC:  </u></b> <br>
+				
+				<ol>
+				
+				
+				<li><u>La partie matérielle</u><br>
+					a). Pc portable, la télévision, le téléphone portable, la tablette interactive, 
+				appareils photos numériques, téléphones portables…etc<br>
+					b). Station de travail : On appelle station de travail toute machine capable 
+				d’envoyer des données vers les réseaux PC, MAC, SUN Terminal X,serveurs…etc
+				<li> <u>La partie logicielle</u><br>
+					a). Les systèmes d’exploitation, les logiciels d’application et d’utilisation des 
+				différents composants matériels.<br>
+					b). Les réseaux d’internet ou mobiles.
+				</ol>	
+				
+				
+				
+				<hr width="1000" >
+				
+				
+				
+				<li><b><u>   Caractéristiques: </u></b> <br>
+			
+				<ul type='disc'>
+				<li><u>La rapidité</u>: dans la réalisation des activités. 
+				<li><u>La décentralisation du pouvoir</u>: elles permettraient les agents à recevoir les informations se grâce aux forums. 
+				<li><u>Un meilleur accès aux informations</u> de toute ordre pour l'ensemble de personnel de 
+				l'entreprise et faciliterait le partage de ces informations pour une plus grande organisation. 
+				<li><u>La rationalité</u>: donner un avantage pour l'entreprise. 
+				<li><u>La mondialisation</u>: l'activité de l'entreprise n'est pas seulement locale ou 
+				régionale mais internationale.
+				<li><u>La répartition</u>: l’information circule entre un nombre très élevés de stations avec une qualité 
+				excellente 
+				<li><u>L’intensité</u>: on peut transmettre et recevoir des informations dans n’importe quel 
+				temps et de n’importe quelle région.
+				</ul>
+				
+				<hr width="1000" >
+				<li><b><u>   Initiation aux techniques de communication: </u></b> <br>
+			
+				<ul type='disc'>
+				<li><u>Objectifs de communication</u>:<br>
+
+				Les objectifs de communication correspondent aux réactions que l‘on attend du récepteur. 
+				Un objectif de communication doit se définir selon 3 dimensions : 
+				<ul type='circle'>
+				<li>Au niveau « cognitif » la communication a pour but La prise de conscience 
+				l’attention, la notoriété et l’information au sujet d’une marque, d’un produit d’une 
+				idée, ou d’une entreprise, à ce stade, la communication est avant tout informative. 
+				<li>Au stade « affectif » c’est de Modifier ou renforcer l’image de produit en agissant sur 
+				les attitudes ou les opinions, que ce soit pour un produit ou une marque. 
+				<li>Au stade « comportemental » le but est de modifier les comportements en 
+				1provoquant l’achat, l’essai.
+				</ul>
+			
+				<li><u>Système de communication </u>:<br>
+		
+				<ul type='circle'>
+				
+				
+				
+				<li><u>Les partenaires de communication</u>: <br>
+				 - L’émetteur : il transforme le message en signaux.<br> 
+				 - Le récepteur : il reçoit les signaux et reconstruit le message.<br> 
+				<li><u>Les vecteurs</u>:<br> 
+				 - Message : l’émetteur émet un message qu’il va tenter de coder le plus 
+				parfaitement possible.<br> 
+				 - Médias : c’est le moyen utilisé, pour transmettre le message.<br> 
+				<li><u>Les fonctions</u>:<br>
+				 - Codage : c’est la traduction du message en un ensemble structuré de 
+				signifiants.<br>
+				 - Décodage : c’est l’interprétation du récepteur.<br>
+				 - Réponse : l’avis du client. <br>
+				 - Feedback : c’est la réaction du récepteur face au message reçu. Cette réaction<br>
+				peu être immédiate ou retardée 
+				<li><u>Bruit</u>: il peut venir perturber les signaux pendant la transmission.
+				</ul>
+				
+				<li><u>Les types de communication</u>:<br> 
+			
+				La communication est devenue un outil indispensable pour tout organisme elle prend des 
+				formes différentes nous distinguons deux types de communications :
+				<ul type='circle'> 
+				<li><u>La communication institutionnelle</u>: Consiste à communiquer sur 
+				l’image de marque de l’entreprise ou de l’institution elle se réalise par la publicité, 
+				mécénat, le parrainage, le sponsoring …etc. 
+				<li><u>La communication commerciale</u> : Il s’agit de mettre en avant les 
+				caractéristiques, les performances et les avantages du produit dans une 
+				communication crédible et cohérente
+				</ul>
+			
+				
+				<li><u>Les schémas de communication</u>:<br>
+				
+				<ul type='circle'>
+				<li><u>La communication interpersonnelle</u> sera employée lorsque vous allez vous adresser à l’un 
+				de vos collaborateurs, Il s’agit d’une communication où un émetteur va transmettre son (ou 
+				ses) message(s) à un destinataire. Il peut éventuellement attendre, un « feed-back ». 
+				<li><u>La communication de groupe</u> est le schéma utilisé lorsque vous vous adressez à vos salariés, 
+				un manager à son équipe ou bien lors de réunions. Un émetteur (à un moment donné) veut 
+				faire passer un message à plusieurs destinataires. Là encore, un retour peut être attendu, 
+				voire discuté afin de tirer le maximum des avis de chacun. 
+				<li><u>La communication de masse</u> est par exemple celle de la publicité. En général, on n’attend 
+				pas de feedback, bien que l’efficacité de cette communication puisse se mesurer par 
+				exemple en termes de ventes ou autres
+				</ul>
+			
+				
+				
+				
+				
+				<li><u>Média et Multimédia</u>:<br>
+				
+				<ul type='circle'>
+				<li><u>Média</u>: Un média est un moyen impersonnel permettant une diffusion large et 
+				collective d'informations, quel que soit le support: <br>
+				 - Les messages écrits (presse, édition, affichage publicitaire) <br>
+				 - La radiodiffusion (radio) <br>
+				 - La télédiffusion, câblée ou par satellite (télévision) <br>
+				 - La projection cinématographique (film, documentaire, publicité) <br>
+				 - Le réseau Internet (sites d'information, de propagandes, spams) <br>
+				<li><u>Multimédia</u>: Ensemble des techniques et des produits qui permettent l'utilisation 
+				simultanée et interactive de plusieurs modes de représentation de l'information 
+				(textes, sons, images fixes ou animées).
+				
+				
+				
+				<hr width="1000" >
+	
+				</ol>
+				</p>
+			</div>
+
+		</div>
+
+
+
+
+
+		<div class="box2">
+			<button type="button" class="collapsible">Chapitre 2 : <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Les réseaux informatiques</b>  </button>
+			<div class="content">
+  			<p> 1.Réseau (informatique) Network : </p>
+			 <p>Un réseau informatique est un ensemble d'ordinateurs et de terminaux connectés entre eux pour échanger des informations numériques selon des règles bien définies. La mise en réseau permet de relier des ordinateurs afin qu'ils puissent partager des ressources. Un réseau repose sur l'interconnexion et la communication entre les nœuds, qui sont les extrémités d'une connexion, et les processus, qui sont les programmes en cours d'exécution. Les réseaux informatiques ont évolué pour intégrer la voix et la vidéo en plus des données informatiques. </p>
+			<p> 2.Les caractéristiques de base d’un réseau sont : </p>
+			 <p>Les réseaux informatiques sont définis par plusieurs caractéristiques clés : la topologie, qui décrit comment les équipements sont interconnectés physiquement et logiquement, le débit, qui mesure la quantité de données numériques transmises par seconde, la distance maximale ou portée du réseau, qui dépend de la technologie utilisée, et le nombre maximal de nœuds pouvant être interconnectés. </p>
+			<p> 3.Quelques terminologies en réseau : </p>
+			 <p>▪ Station de travail : désigne toute machine qui peut envoyer des données vers les réseaux, telles que les ordinateurs personnels (PC), les Macs ou les terminaux SUN. 
+
+             <br>▪ Nœud : désigne une station de travail, une imprimante, un serveur ou toute autre entité pouvant être adressée par un numéro unique. 
+
+             <br>▪ Serveur : désigne une entité qui est le dépositaire d'une fonction spécifique, telle que la base de données, le calcul, le fichier ou le courrier électronique. 
+
+             <br>▪ Paquet : désigne la plus petite unité d'information qui peut être envoyée sur le réseau. Un paquet contient généralement l'adresse de l'émetteur, l'adresse du destinataire et les données à transmettre. 
+
+             <br>▪ Réseaux homogènes : désignent des réseaux dans lesquels tous les ordinateurs sont de la même marque ou du même constructeur, comme le réseau AppleTalk pour les ordinateurs Apple. 
+
+             <br>▪ Réseaux hétérogènes : désignent des réseaux dans lesquels les ordinateurs connectés sont de marques et de constructeurs différents, comme le réseau Ethernet qui utilise un câble de type coaxial. 
+
+             <br>▪ Débit : mesure la quantité de données numériques (bits) transmises par seconde (bps) sur un réseau. </p>
+            <p> 4.Éléments d'un reseau </p>
+             <p>▪ Les ordinateurs équipés d'une carte de communication 
+
+             <br>▪ Les logiciels navigateur, client de messagerie, serveur web, ... 
+
+             <br>▪ Les supports du : LAN : câbles paires cuivre torsadées, prises RJ45, WIFI,.. WAN : ligne téléphonique, ADSL, fibre optique, ... 
+
+             <br>▪ Les équipements d'interconnexion du LAN : répéteur (transceiver), concentrateur (hub), commutateur (switch) WAN : routeur </p>
+            <p> 5.Classification des réseaux :</p>
+			 <p>▪ Le premier critère est la portée ou l'envergure, qui distingue les réseaux locaux (LAN), métropolitains (MAN) et étendus (WAN). Les LAN sont des réseaux locaux d'entreprise qui ne dépassent généralement pas quelques centaines de mètres, avec des vitesses de transmission de 10 à 100 Mb/s. Les MAN regroupent plusieurs réseaux locaux dans une même zone, pouvant relier des points distants de 10 à 25 km, et sont généralement basés sur des câbles coaxiaux. Les WAN sont des réseaux étendus gérés par des opérateurs publics ou privés, qui assurent la transmission des données sur de longues distances à l'échelle d'un pays ou de la planète. 
+
+             <br>▪ Le deuxième critère de classification est l'ouverture ou l'utilisation, qui distingue les réseaux intranet (internes à une entité organisationnelle), extranet (ouverts vers l'extérieur) et internet (réseaux publics interconnectés à l'échelle de la planète). 
+
+             <br>▪ Le troisième critère est le support de connexion, avec des réseaux filaires (câble coaxial, câble en paires torsadées, fibre optique, lignes téléphoniques) et des réseaux sans fil (ondes radios, infrarouges, satellites, Bluetooth, etc.). 
+
+             <br>▪ Enfin, le quatrième critère est le type d'organisation, avec les réseaux postes à postes (Peer to Peer) où chaque ordinateur peut partager ses ressources, et les réseaux clients/serveurs où les stations sont dédiées à une ou plusieurs tâches spécialisées et gérées par un administrateur. </p>
+			<p>6.Le type de topologie : </p>
+			 <p>Il mentionne quatre types de topologies : bus, étoile, anneau et maillée :
+
+			 <br>▪ Les réseaux en bus utilisent un câble coaxial pour connecter les ordinateurs en série, chaque ordinateur étant connecté au bus via des connecteurs BNC. 
+				
+			 <br>▪ Les réseaux en étoile, quant à eux, ont toutes les stations connectées à un commutateur, qui renvoie les données vers tous les autres ports réseaux ou uniquement au destinataire. 
+				
+			 <br>▪ Les réseaux en anneau fonctionnent en utilisant une boucle où les ordinateurs communiquent chacun à leur tour. Ils utilisent la méthode d'accès à "jeton" où une trame de 3 octets circule dans un seul sens et les données transitent de stations en stations en suivant l'anneau. 
+				
+			 <br>▪ Le texte mentionne également l'inconvénient des réseaux en bus, qui est la limitation du débit à 10 Mbits/s, ce qui les rend moins adaptés aujourd'hui. </p>
+			</div>
+		</div>
+
+
+
+		<div class="box2">
+			<button type="button" class="collapsible">Chapitre 3 :<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le modèle OSI</b>  </button>
+			<div class="content">
+  			<p><h2> <u>Composants matériel d’un Réseau informatique :</u></h2>
+				&nbsp;&nbsp;<u>Les Cartes réseau :</u> 
+				   <br>Ce sont des composants matériels permettant à un ordinateur de se connecter à un réseau. leurs rôle est  crucial dans la communication entre ordinateurs permettant la transmission et la réception de données via des protocoles de communication  tels que TCP/IP.</br>
+				   &nbsp;<u>Switch :</u> :
+					<br>&nbsp;un switch est un équipement qui permet à plusieurs appareils de communiquer dans un réseau local en utilisant les adresses MAC, en stockant les informations dans une table de correspondance pour envoyer les données uniquement à l'appareil destinataire, Améliorent la gestion du trafic et la sécurité.</br>
+					&nbsp; &nbsp;<u>hub:</u>
+				  <br> Un hub est un composant de réseau qui transmet les données à tous les appareils connectés, contrairement à un switch. Cela signifie que lorsque des données sont envoyées sur le réseau, tous les appareils connectés reçoivent ces données .</br>
+				<h2><u> modele OSI :</u></h2>
+				   Le modèle OSI est un modèle de référence pour les communications de réseau qui divise les communications en sept couches, chacune étant responsable de la communication de données entre les appareils de réseau. Les couches sont: la couche physique, la couche liaison de données, la couche réseau, la couche transport, la couche session, la couche présentation et la couche application. Chaque couche fournit des services specifique pour facilitè la communication entre les appareils .
+				<h2><U> modèle TCP/IP :</U></h2>
+				   le modele TCP/IP est un modèle de référence pour les communications de réseau, qui divise les communications en quatre couches principales : la couche liaison de données, la couche réseau, la couche transport et la couche application. Ce modèle est utilisé pour la conception et la mise en œuvre des réseaux informatiques, tels que :les réseaux Internet ,les réseaux sans fil. Il est utilisé avec les protocoles de communication de réseau, tels que le protocole Internet (IP), le protocole de contrôle de transmission (TCP) .
+				<h2><u>L'adressage :</u></h2>
+				   Les communications en réseau sont controlé par des règles telles que l'adressage, L'adressage IP est un numéro qui identifie chaque ordinateur dans le réseau, avec deux modes d'adressage : IPv4 et IPv6. L'IPv4 utilise 32 bits pour l'adressage et est représenté en décimale, tandis que l'IPv6 utilise 128 bits et est représenté en hexadécimal . 
+				<h2><u>dressage IPV4 : </u></h2>
+				   la composition d'une adresse IPV4, se divise en 2, l'adresse réseau et une autre pour l'adresse hôte. La valeur des bits pour la partie réseau permet d'identifier les hôtes appartenant au même réseau. Le nombre de bits pour la partie hôte détermine le nombre de machines qui peuvent être connectées au réseau. Il exsiste notamment différents types d'adresses IPV4, comme l'adresse réseau et l'adresse de diffusion .</p>
+			</div>
+		</div>
+
+
+
+
+
+		<div class="box2">
+			<button type="button" class="collapsible"> Chapitre 4 :<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L'Internet et le Web</b> </button>
+			<div class="content">
+  			<p>
+				<li>Introduction<br></li>
+				<br>
+				&nbsp  Le web et Internet sont souvent confondus, mais en réalité, le web est une des applications d'Internet. Le World Wide Web (WWW) est un système hypertexte public sur Internet qui permet de consulter des pages accessibles sur des sites à l'aide d'un navigateur. Les pages web sont reliées entre elles par des hyperliens, qui créent l'image d'une toile d'araignée. Le principe du World Wide Web est d'accéder à des documents textuels situés sur des machines accessibles par Internet et reliés entre eux par un mécanisme de lien hypertexte. Le web sert aujourd'hui des ressources de différentes natures : texte, image, son, vidéo, contenu applicatif et interactif, tels que l'achat ou la discussion.<br><br>
+			  
+				<li>Aspects techniques du Web:<br></li>
+				<br>
+				&nbsp  Les trois mécanismes de base du web sont :<br>
+			  
+				URL : le mécanisme de localisation qui permet d'accéder à un ensemble de ressources en faisant appel au protocole DNS.
+				HTTP : un protocole de niveau applicatif qui suit le paradigme client-serveur et est sans état, ce qui signifie qu'il ne se souvient pas des transactions précédentes.<br>
+				HTML : un langage de description de pages web qui décrit chaque élément de la page, tels que le titre, les morceaux de texte et les images, et qui permet la programmation déclarative et la création de liens hypertextes entre les pages.<br><br>
+				<li>Page web et site web<br></li>
+				<br>
+				&nbsp  Une page web est un document multimédia qui peut contenir des images, des textes, des liens interactifs et des possibilités d'interaction. Elle est décrite élément par élément à l'aide d'un langage de description tel que HTML, XHTML ou HTML5, et stockée dans un fichier HTML. Une page web est interprétée et affichée par un navigateur et est localisée sur Internet à l'aide d'une adresse URL. Elle permet d'accéder à d'autres pages en suivant des liens. Un site web est un regroupement de pages web autour d'une thématique commune, reliées entre elles par des liens hypertextes, émanant d'une même entité telle qu'une organisation, une entreprise ou un particulier. Les sites web sont accessibles à partir d'une page d'accueil commune et d'une URL de base commune, et sont généralement localisés sur un même serveur. Ils sont structurés sous forme d'arborescence de dossiers et de fichiers, ce qui permet de définir des chemins relatifs.<br><br>
+			  
+			  <li>Création d'une page web HTML<br></li>
+			  <br>
+			  &nbsp  Un fichier HTML est un fichier texte structuré par ces balises et interprété dans un navigateur. Il peut être créé à l'aide d'un éditeur de pages web comme Dreamweaver ou tout simplement avec un éditeur de texte tel que Bloc-notes ou WordPad.<br>
+			  &nbsp  Pour créer une page web en HTML, il faut utiliser des balises HTML pour structurer le document. Au minimum, le fichier doit comporter les balises < html >, < head >, < title > et < body >. Pour créer des titres et des paragraphes, on utilise les balises < h1 > à < h6 > et < p >.
+            </p>
+			</div>
+		</div>
+
+
+		<div class="box2">
+			<button type="button" class="collapsible">Chapitre 5 :<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Système de Gestion de Version</b>  </button>
+			<div class="content">
+<p>
+	<h3><li>GIT:</h3><br></li>
+<pre>
+.Git est un logiciel de gestion de version créé en 2005 par Linus Torvalds.
+.Un logiciel de gestion de version permet de conserver l'historique des modifications apportées à un projet.
+.Il permet d'identifier rapidement les modifications effectuées et de revenir aux anciennes versions en cas de problèmes.
+</pre>
+<h3><li>Utilisation de Git :</h3><br></li>
+<pre>
+.Ce système rudimentaire de gestion de version décentralisé peut être amélioré en utilisant des logiciels tels que Git, 
+	qui permettent aux développeurs de coordonner leur travail en gardant une trace des modifications apportées
+	aux fichiers et en permettant à différentes versions du même fichier de coexister.
+.Git fournit aux développeurs un accès à l'historique complet des modifications du projet, 
+	ce qui facilite le suivi des modifications, qui les a effectuées et quand elles ont été effectuées.
+</pre>
+
+<pre>
+.Les logiciels de gestion de version sont centralisés ou distribués
+.Le modèle distribué, utilisé par Git, permet à chaque utilisateur de télécharger et héberger 
+.l'intégralité du code source du projet sur sa propre machine, offrant une plus grande simplicité et flexibilité dans le travail.
+.Cela signifie qu'il n'est pas nécessaire d'être constamment connecté à un serveur central pour travailler en ligne.
+<pre>
+<h3><li>GitHub :</h3><br></li>
+<pre>
+•GitHub est un service d'hébergement en ligne pour les dépôts Git qui agit 
+en tant que serveur central pour ces dépôts.
+•copier tous les fichiers d'un projet et leurs versions situées 
+sur le serveur central est appelé un dépôt ou "repo" en abrégé.
+</pre>
+<h3><li>Démarrer un dépôt Git:</h3><br></li>
+<pre>
+Un “dépôt” correspond à la copie et à l’importation de l’ensemble des fichiers d’un
+projet dans Git. Il existe deux façons de créer un dépôt Git :
+• On peut importer un répertoire déjà existant dans Git ;
+• On peut cloner un dépôt Git déjà existant.
+</pre>
+
+<h3><li>Les états des fichiers</h3><br></li>
+	•Git suit les modifications des fichiers d'un projet en les classant en deux états : "suivi" et "non suivi".
+    	Lors du démarrage d'un dépôt Git ou lors de l'importation d'un répertoire existant, les fichiers sont 
+		initialement non suivis et doivent être indexés et validés.
+    •Les fichiers suivis peuvent avoir trois états : "modifié", "indexé" et "validé".
+    	Un fichier est considéré comme "modifié" tant qu'il n'a pas été indexé, et un fichier nouvellement 
+		ajouté est considéré comme "non suivi".
+    •L'indexation d'un fichier indique à Git qu'il doit faire partie du prochain instantané.
+    •Lorsqu'un instantané est pris, les fichiers indexés et non modifiés sont validés, et le cycle peut 
+		recommencer.
+
+</pre>
+
+<h3><li>Les zones de travail</h3><br></li>
+<pre>
+Le répertoire de travail est où les fichiers du projet sont stockés et
+modifiés. La zone d'index est un fichier qui stocke les informations sur
+les fichiers qui feront partie du prochain instantané ou commit. 
+Le répertoire Git est l'endroit où Git stocke les métadonnées et la base de
+données des objets du projet. Le processus de travail consiste à modifier
+les fichiers dans le répertoire de travail, les indexer dans la zone
+d'index, puis les valider dans le répertoire Git. Ces zones de travail
+permettent à Git de suivre les modifications sur les fichiers d'un projet.
+</pre>
+	<h3><li>Gestion de version en utilisant Git</h3><br></li>
+    <h3><li>1-Créer un dépôt Git à partir d'un répertoire existant :</h3></li>
+    <p>
+      -Utiliser la commande "git init" pour initialiser un dépôt Git.
+      -Utiliser "git status" pour connaître l'état des fichiers.
+      -Indexer les fichiers avec "git add" pour qu'ils puissent être validés.
+      -Valider les fichiers avec "git commit", en ajoutant un message pour
+      documenter les modifications.
+    </p>
+	<h3><li>2.Cloner un dépôt Git :</h3><br></li>
+    <p>
+      -Utiliser la commande "git clone" en spécifiant l'URL du dépôt existant.
+      -Ajouter des fichiers au dépôt cloné avec "git add" et "git commit".
+      -Pousser les modifications vers le dépôt cloné avec "git push".
+    </p>
+	<h3><li>3-Ajouter ou modifier des fichiers dans un projet et actualiser notre
+		dépôt Git :</h3><br></li>
+    <p>
+      -Utiliser "git add" et "git commit" pour enregistrer les changements dans
+      le dépôt Git.
+      -Utiliser "git commit -a" pour mettre en un coup les fichiers modifiés et
+      déjà sous suivi dans la zone d'index, et les valider.
+      -Répéter ces étapes pour actualiser le dépôt Git avec de nouveaux
+      changements.
+    </p>
+	<h3><li>4-Consulter l'historique des modifications Git et annuler des
+		modifications apportées à un fichier </h3><br></li>
+    <pre>
+      -Utiliser la commande "git log" pour consulter l'historique des
+      modifications Git.
+      -Utiliser "git checkout -- nom-du-fichier" ou "git restore" pour annuler
+      les modifications apportées à un fichier et revenir à son état précédent.
+    </pre>
+	<h3><li>branche</h3><br></li>
+
+    <p>
+      Une branche dans Git est un pointeur vers un commit spécifique.
+      Contrairement aux autres systèmes de contrôle de version, Git ne crée pas
+      une copie physique de l'ensemble du répertoire de travail lorsqu'une
+      nouvelle branche est créée, ce qui facilite la création et la fusion de
+      branches. La branche par défaut dans Git s'appelle "master" et est
+      simplement une branche comme les autres. Lorsqu'on crée une nouvelle
+      branche, on crée simplement un nouveau pointeur vers un commit plutôt que
+      de recopier l'intégralité du répertoire de travail.
+    </p>
+			
+			
+			
+			</p>
+			</div>
+
+		</div>
+
+
+
+
+
+
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+			
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+				  content.style.display = "none";
+				} else {
+				  content.style.display = "block";
+				}
+			  });
+			}
+			</script>
+	
+</body></div>
+</html>
